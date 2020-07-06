@@ -1,0 +1,16 @@
+.card-element img{
+    width: 100% !important;
+}
+.card-element h3,.card-element h4 {
+    margin: 0;
+}
+.card-element>img {
+    border-radius: 5px;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-element:hover>img {
+    box-shadow: 5px 5px 20px #00000054,
+        -5px 5px 20px #00000057;
+    transform: scale(1.05);
+}

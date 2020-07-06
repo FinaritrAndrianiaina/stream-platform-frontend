@@ -1,0 +1,24 @@
+.rating-place {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rate {
+    border: 1px solid var(--border-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.rate.full {
+    background-color: var(--text-color-2);
+}
+
+.rating {
+    font-size: 15px;
+}
+
+.rating .col {
+    padding: 0 0 !important;
+}

@@ -1,0 +1,17 @@
+#discover{
+    height: 100vh;
+    display: flex;
+}
+
+.grid-mansory{
+    margin-left: 60px;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    width: auto;
+}
+
+.row-mansory{
+    padding: 10px;
+    background-clip: padding-box;
+}
